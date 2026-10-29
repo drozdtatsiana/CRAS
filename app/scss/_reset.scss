@@ -43,10 +43,9 @@ ul {
 input,
 button,
 textarea,
-select,
-a {
+select
+{
   font: inherit;
-  outline: transparent;
 }
 
 button {
@@ -56,14 +55,25 @@ button {
   cursor: pointer;
   padding: 0;
 }
-@media (favors-reduced-motion: reduce) {
+img {
+  height: auto;
+}
 
+button {
+  color: inherit;
+ 
+}
+@media (prefers-reduced-motion: reduce) {
   *,
-  * ::before,
-  * ::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+:focus-visible {
+  outline: 2px solid #2457ff;
+  outline-offset: 2px;
 }
