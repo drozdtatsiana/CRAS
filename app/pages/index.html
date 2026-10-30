@@ -2,9 +2,180 @@
 <!--=include header.html  -->
 <main class="main">
     <section class="hero">
-        
+        <div class="hero__slider swiper">
+            <div class="swiper-wrapper">
+                <div class="hero__slide swiper-slide">
+                    <picture class="hero__bg">
+                        <source srcset="images/hero-1.avif" type="image/avif">
+                        <source srcset="images/hero-1.webp" type="image/webp">
+                        <img class="hero__img" src="images/hero-1.jpg" alt=""
+                            width="1920" height="1080" fetchpriority="high">
+                    </picture>
+                    <div class="container">
+                        <div class="hero__content">
+                            <h1 class="hero__title">Ремонт и сервис авто</h1>
+                            <p class="hero__text">Сертифицированные мастера
+                                проведут диагностику и ремонт на высшем уровне,
+                                чтобы ваш автомобиль работал безупречно.</p>
+                            <a class="hero__btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                    <picture class="hero__bg">
+                        <source srcset="images/hero-2.avif" type="image/avif">
+                        <source srcset="images/hero-2.webp" type="image/webp">
+                        <img class="hero__img" src="images/hero-2.jpg" alt=""
+                            width="1920" height="1080" fetchpriority="high">
+                    </picture>
+                    <div class="container">
+                        <div class="hero__content">
+                            <h2 class="hero__title">Компьютерная диагностика
+                            </h2>
+                            <p class="hero__text">Найдём неисправность до того,
+                                как она станет дорогой. Проверим двигатель,
+                                электронику и ходовую на современном
+                                оборудовании.</p>
+                            <a class="hero__btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                    <picture class="hero__bg">
+                        <source srcset="images/hero-3.avif" type="image/avif">
+                        <source srcset="images/hero-3.webp" type="image/webp">
+                        <img class="hero__img" src="images/hero-3.jpg" alt=""
+                            width="1920" height="1080" fetchpriority="high">
+                    </picture>
+                    <div class="container">
+                        <div class="hero__content">
+                            <h2 class="hero__title">профчистка и детейлинг</h2>
+                            <p class="hero__text">Глубокая химчистка салона,
+                                полировка кузова и защитные покрытия. Вернём
+                                автомобилю чистоту и блеск, как в салоне.</p>
+                            <a class="hero__btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                    <picture class="hero__bg">
+                        <source srcset="images/hero-4.avif" type="image/avif">
+                        <source srcset="images/hero-4.webp" type="image/webp">
+                        <img class="hero__img" src="images/hero-4.jpg" alt=""
+                            width="1920" height="1080" fetchpriority="high">
+                    </picture>
+                    <div class="container">
+                        <div class="hero__content">
+                            <h2 class="hero__title">Шиномонтаж и балансировка
+                            </h2>
+                            <p class="hero__text">Сезонная замена шин, ремонт
+                                проколов и точная балансировка колёс. Быстро,
+                                пока вы ждёте.</p>
+                            <a class="hero__btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                    <picture class="hero__bg">
+                        <source srcset="images/hero-5.avif" type="image/avif">
+                        <source srcset="images/hero-5.webp" type="image/webp">
+                        <img class="hero__img" src="images/hero-5.jpg" alt=""
+                            width="1920" height="1080" fetchpriority="high">
+                    </picture>
+                    <div class="container">
+                        <div class="hero__content">
+                            <h2 class="hero__title">Кузовной ремонт и покраска
+                            </h2>
+                            <p class="hero__text">Устраним вмятины и царапины,
+                                подберём цвет по коду краски. Вернём кузову
+                                первоначальный вид.</p>
+                            <a class="hero__btn" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__info">
+                <ul class="hero__info-list">
+                    <li class="hero__info-item">
+                        <a class="hero__info-link"
+                            href="mailto:info@example.ru">
+                            <svg width="60" height="60" aria-hidden="true">
+                                <use href="images/sprite.svg#icon-envelope">
+                                </use>
+                            </svg>
+                            info@example.ru
+                        </a>
+                    </li>
+                    <li class="hero__info-item">
+                        <a class="hero__info-link"
+                            href="https://yandex.by/maps/-/CXbXMXm2"
+                            target="_blank" rel="noopener">
+                            <svg width="60" height="60" aria-hidden="true">
+                                <use href="images/sprite.svg#icon-location">
+                                </use>
+                            </svg>
+                            ул. Заводская, 12, Москва
+                        </a>
+                    </li>
+                    <li class="hero__info-item">
+                        <p class="hero__info-text">
+                            <svg width="60" height="60" aria-hidden="true">
+                                <use href="images/sprite.svg#icon-date"></use>
+                            </svg>
+                            Пн–Сб: 9:00–20:00
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero__social">
+                <ul class="hero__social-list">
+                    <li class="hero__social-item">
+                        <a class="hero__social-link" href="#"
+                            aria-label="X (Twitter)">
+                            <svg width="16" height="16" aria-hidden="true">
+                                <use href="images/sprite.svg#icon-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="hero__social-item">
+                        <a class="hero__social-link" href="#"
+                            aria-label="LinkedIn">
+                            <svg width="16" height="16" aria-hidden="true">
+                                <use href="images/sprite.svg#icon-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="hero__social-item">
+                        <a class="hero__social-link" href="#"
+                            aria-label="Facebook">
+                            <svg width="16" height="16" aria-hidden="true">
+                                <use href="images/sprite.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <p class="hero__social-text">Мы в сети</p>
+            </div>
+            <div class="hero__pagination"></div>
+            <button class="hero__slide-btn hero__slide-btn--prev" type="button"
+                aria-label="Предыдущий слайд">
+                <svg class="icon-prev" width="31" height="15"
+                    aria-hidden="true">
+                    <use href="images/sprite.svg#icon-prev"></use>
+                </svg>
+            </button>
+            <button class="hero__slide-btn hero__slide-btn--next" type="button"
+                aria-label="Следующий слайд">
+                <svg class="icon-next" width="31" height="15"
+                    aria-hidden="true">
+                    <use href="images/sprite.svg#icon-next"></use>
+                </svg>
+            </button>
+        </div>
     </section>
 </main>
-
 <!--=include footer.html  -->
 <!--=include script.html  -->
