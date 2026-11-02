@@ -11,3 +11,17 @@
           prevEl: '.hero__slide-btn--prev',
         },
       });
+
+      const player = document.querySelector('.video__player');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      player.play();
+    } else {
+      player.pause();
+    }
+  });
+}, { threshold: 0.3 });
+
+observer.observe(player);
