@@ -25,3 +25,11 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.3 });
 
 observer.observe(player);
+
+const reviewsSwiper = new Swiper('.reviews__slider', {
+  speed: 600,
+  navigation: {
+    nextEl: '.reviews__btn--next',
+    prevEl: '.reviews__btn--prev',
+  },
+});

@@ -162,14 +162,14 @@
             <div class="hero__pagination"></div>
             <button class="hero__slide-btn hero__slide-btn--prev" type="button"
                 aria-label="Предыдущий слайд">
-                <svg class="icon-prev" width="31" height="15"
+                <svg class="icon-prev" width="14" height="9"
                     aria-hidden="true">
                     <use href="images/sprite.svg#icon-prev"></use>
                 </svg>
             </button>
             <button class="hero__slide-btn hero__slide-btn--next" type="button"
                 aria-label="Следующий слайд">
-                <svg class="icon-next" width="31" height="15"
+                <svg class="icon-next" width="14" height="9"
                     aria-hidden="true">
                     <use href="images/sprite.svg#icon-next"></use>
                 </svg>
@@ -324,6 +324,195 @@
             <source src="video/video.mp4" type="video/mp4">
         </video>
     </div>
+
+    <section class="stats">
+  <div class="container">
+    <h2 class="visually-hidden">Наши достижения</h2>
+    <ul class="stats__list">
+      <li class="stats__item">
+        <span class="stats__number">10+</span>
+        <p class="stats__text">Лет опыта</p>
+      </li>
+      <li class="stats__item">
+        <span class="stats__number">256+</span>
+        <p class="stats__text">Довольных клиентов</p>
+      </li>
+      <li class="stats__item">
+        <span class="stats__number">112+</span>
+        <p class="stats__text">Удовлетворённость клиентов</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="clients">
+  <div class="container">
+    <h2 class="clients__title">Нам доверяют</h2>
+    <ul class="clients__list">
+      <li class="clients__item"><img src="images/client-1.svg" alt="Логотип партнёра: автосервис" width="80" height="70" loading="lazy"></li>
+      <li class="clients__item"><img src="images/client-2.svg" alt="Логотип партнёра: спортивный автомобиль" width="122" height="50" loading="lazy"></li>
+      <li class="clients__item"><img src="images/client-3.svg" alt="Логотип партнёра: автомобильная компания" width="101" height="70" loading="lazy"></li>
+      <li class="clients__item"><img src="images/client-4.svg" alt="Логотип партнёра: спортивный автомобиль" width="125" height="50" loading="lazy"></li>
+      <li class="clients__item"><img src="images/client-5.svg" alt="Логотип партнёра: электромобили" width="99" height="70" loading="lazy"></li>
+      <li class="clients__item"><img src="images/client-6.svg" alt="Логотип партнёра: спортивный автомобиль" width="122" height="50" loading="lazy"></li>
+      <li class="clients__item"><img src="images/client-7.svg" alt="Логотип партнёра: автострахование" width="76" height="70" loading="lazy"></li>
+    </ul>
+  </div>
+</section>
+<section class="reviews">
+  <div class="container">
+    <div class="reviews__head">
+      <h2 class="reviews__title">Что говорят наши довольные клиенты</h2>
+      <div class="reviews__nav">
+        <button class="reviews__btn reviews__btn--prev" type="button" aria-label="Предыдущий отзыв">
+          <svg class="reviews__btn-icon" aria-hidden="true" width="14" height="9">
+            <use href="images/sprite.svg#reviews-next"></use>
+          </svg>
+          Назад
+        </button>
+        <button class="reviews__btn reviews__btn--next" type="button" aria-label="Следующий отзыв">
+          Далее
+          <svg class="reviews__btn-icon" width="14" height="9" aria-hidden="true">
+            <use href="images/sprite.svg#reviews-prev"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="reviews__slider swiper">
+      <div class="swiper-wrapper">
+
+        <div class="reviews__slide swiper-slide">
+          <div class="reviews__content">
+            <svg class="reviews__icon" width="109" height="80" aria-hidden="true">
+              <use href="images/sprite.svg#reviews-icon"></use>
+            </svg>
+            <p class="reviews__content-title">Алексей Громов</p>
+            <p class="reviews__content-city">Из Воронежа</p>
+            <p class="reviews__content-text">
+              «Приехал на плановое ТО перед дальней поездкой. Проверили всё до мелочей, быстро сделали и дали советы по уходу за машиной.»
+            </p>
+          </div>
+          <picture class="reviews__photo">
+            <source srcset="images/reviews-1.avif" type="image/avif">
+            <source srcset="images/reviews-1.webp" type="image/webp">
+            <img src="images/reviews-1.jpg" alt="Алексей Громов" width="510" height="550" loading="lazy">
+          </picture>
+        </div>
+
+        <div class="reviews__slide swiper-slide">
+          <div class="reviews__content">
+            <svg class="reviews__icon" width="109" height="80" aria-hidden="true">
+              <use href="images/sprite.svg#reviews-icon"></use>
+            </svg>
+            <p class="reviews__content-title">Дмитрий Кузнецов</p>
+            <p class="reviews__content-city">Из Москвы</p>
+            <p class="reviews__content-text">
+              «Приехал с неисправностью, за час нашли причину и всё объяснили. Работа выполнена аккуратно, цена совпала со сметой.»
+            </p>
+          </div>
+          <picture class="reviews__photo">
+            <source srcset="images/reviews-2.avif" type="image/avif">
+            <source srcset="images/reviews-2.webp" type="image/webp">
+            <img src="images/reviews-2.jpg" alt="Дмитрий Кузнецов" width="510" height="550" loading="lazy">
+          </picture>
+        </div>
+
+        <div class="reviews__slide swiper-slide">
+          <div class="reviews__content">
+            <svg class="reviews__icon" width="109" height="80" aria-hidden="true">
+              <use href="images/sprite.svg#reviews-icon"></use>
+            </svg>
+            <p class="reviews__content-title">Андрей Соколов</p>
+            <p class="reviews__content-city">Из Санкт-Петербурга</p>
+            <p class="reviews__content-text">
+              «После детейлинга машина выглядит как новая. Мастера бережно отнеслись к кузову и салону, сделали всё в срок.»
+            </p>
+          </div>
+          <picture class="reviews__photo">
+            <source srcset="images/reviews-3.avif" type="image/avif">
+            <source srcset="images/reviews-3.webp" type="image/webp">
+            <img src="images/reviews-3.jpg" alt="Андрей Соколов" width="510" height="550" loading="lazy">
+          </picture>
+        </div>
+
+        <div class="reviews__slide swiper-slide">
+          <div class="reviews__content">
+            <svg class="reviews__icon" width="109" height="80" aria-hidden="true">
+              <use href="images/sprite.svg#reviews-icon"></use>
+            </svg>
+            <p class="reviews__content-title">Игорь Белов</p>
+            <p class="reviews__content-city">Из Казани</p>
+            <p class="reviews__content-text">
+              «Обслуживаем здесь весь автопарк компании. Всегда чёткие сроки, прозрачные цены и никаких сюрпризов в счёте.»
+            </p>
+          </div>
+          <picture class="reviews__photo">
+            <source srcset="images/reviews-4.avif" type="image/avif">
+            <source srcset="images/reviews-4.webp" type="image/webp">
+            <img src="images/reviews-4.jpg" alt="Игорь Белов" width="510" height="550" loading="lazy">
+          </picture>
+        </div>
+
+        <div class="reviews__slide swiper-slide">
+          <div class="reviews__content">
+            <svg class="reviews__icon" width="109" height="80" aria-hidden="true">
+              <use href="images/sprite.svg#reviews-icon"></use>
+            </svg>
+            <p class="reviews__content-title">Евгений Морозов</p>
+            <p class="reviews__content-city">Из Екатеринбурга</p>
+            <p class="reviews__content-text">
+              «Заменили тормозные колодки и диски за полдня. Объяснили, что и почему менялось, и дали гарантию на работы.»
+            </p>
+          </div>
+          <picture class="reviews__photo">
+            <source srcset="images/reviews-5.avif" type="image/avif">
+            <source srcset="images/reviews-5.webp" type="image/webp">
+            <img src="images/reviews-5.jpg" alt="Евгений Морозов" width="510" height="550" loading="lazy">
+          </picture>
+        </div>
+
+        <div class="reviews__slide swiper-slide">
+          <div class="reviews__content">
+            <svg class="reviews__icon" width="109" height="80" aria-hidden="true">
+              <use href="images/sprite.svg#reviews-icon"></use>
+            </svg>
+            <p class="reviews__content-title">Сергей Орлов</p>
+            <p class="reviews__content-city">Из Минска</p>
+            <p class="reviews__content-text">
+              «Сделали чип-тюнинг и поставили новый выхлоп. Машина стала заметно отзывчивее, а расход почти не вырос.»
+            </p>
+          </div>
+          <picture class="reviews__photo">
+            <source srcset="images/reviews-6.avif" type="image/avif">
+            <source srcset="images/reviews-6.webp" type="image/webp">
+            <img src="images/reviews-6.jpg" alt="Сергей Орлов" width="510" height="550" loading="lazy">
+          </picture>
+        </div>
+
+        <div class="reviews__slide swiper-slide">
+          <div class="reviews__content">
+            <svg class="reviews__icon" width="109" height="80" aria-hidden="true">
+              <use href="images/sprite.svg#reviews-icon"></use>
+            </svg>
+            <p class="reviews__content-title">Максим Власов</p>
+            <p class="reviews__content-city">Из Новосибирска</p>
+            <p class="reviews__content-text">
+              «Очень вежливые мастера. Диагностику сделали быстро, всё показали на экране и ничего лишнего не навязали.»
+            </p>
+          </div>
+          <picture class="reviews__photo">
+            <source srcset="images/reviews-7.avif" type="image/avif">
+            <source srcset="images/reviews-7.webp" type="image/webp">
+            <img src="images/reviews-7.jpg" alt="Максим Власов" width="510" height="550" loading="lazy">
+          </picture>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 </main>
 <!--=include footer.html  -->
 <!--=include script.html  -->
