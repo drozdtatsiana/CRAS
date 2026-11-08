@@ -286,6 +286,16 @@
     grid-template-columns: minmax(0, 600px);
   }
 
+  .blog {
+    padding: 130px 0 80px;
+
+    &__content {
+      h2 {
+        font-size: 32px;
+      }
+    }
+  }
+
   .footer {
     text-align: center;
 
@@ -507,6 +517,32 @@
     font-size: 40px;
   }
 
+  .blog {
+    padding: 110px 0 70px;
+
+    &__content {
+      font-size: 16px;
+
+      b {
+        font-size: 20px;
+      }
+
+      h2 {
+        margin: 30px 0 25px;
+        font-size: 28px;
+      }
+    }
+
+    &__stats {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    &__category {
+      margin-right: 0;
+    }
+  }
+
   .footer {
     &__phone {
       gap: 10px;
@@ -655,6 +691,22 @@
   .news {
     &__item-title {
       font-size: 18px;
+    }
+  }
+
+  .blog {
+    &__content {
+      b {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    &__category {
+      padding: 6px 16px;
     }
   }
 
