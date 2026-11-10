@@ -185,7 +185,11 @@
     }
   }
 
-  .services {
+    .services {
+    &--page {
+      padding-top: 170px;
+    }
+
     &__inner {
       flex-direction: column;
       gap: 50px;
@@ -570,7 +574,9 @@
   .hero__title {
     margin-bottom: 15px;
   }
-
+  .services--page {
+    padding-top: 140px;
+  }
   .clients__list {
     gap: 25px 30px;
   }

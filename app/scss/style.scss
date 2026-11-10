@@ -448,14 +448,16 @@
 
 .services {
   margin-bottom: 100px;
-
+  &--page {
+    padding-top: 220px;
+  }
   &__inner {
     display: flex;
     justify-content: space-between;
     gap: 80px;
   }
 
-  // ---------- левая колонка ----------
+ 
   &__intro {
     flex: 0 0 35%;
   }
@@ -496,7 +498,7 @@
     }
   }
 
-  // ---------- правая колонка ----------
+  
   &__list {
     flex: 1;
     min-width: 0;
