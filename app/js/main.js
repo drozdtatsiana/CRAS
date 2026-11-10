@@ -65,13 +65,16 @@ const modal = document.querySelector('.modal');
 if (modal) {
   const form = modal.querySelector('.modal__form');
   const success = modal.querySelector('.modal__success');
+  const title = modal.querySelector('#modal-title');
   const packageText = modal.querySelector('.modal__package');
   const packageInput = modal.querySelector('.modal__package-input');
 
   document.querySelectorAll('[data-package]').forEach((link) => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
-      packageText.textContent = `Пакет: ${link.dataset.package}`;
+      const customTitle = link.dataset.title;
+      title.textContent = customTitle || 'Заказать пакет';
+      packageText.textContent = customTitle ? '' : `Пакет: ${link.dataset.package}`;
       packageInput.value = link.dataset.package;
       form.hidden = false;
       success.hidden = true;

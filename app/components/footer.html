@@ -36,7 +36,7 @@
             <li class="footer__item"><a class="footer__link" href="#">Запись</a></li>
             <li class="footer__item"><a class="footer__link" href="#blog">Блог / Новости</a></li>
             <li class="footer__item"><a class="footer__link" href="#">Вопросы и ответы</a></li>
-            <li class="footer__item"><a class="footer__link" href="#">Механик</a></li>
+            <li class="footer__item"><a class="footer__link" href="#" data-package="Вызов механика" data-title="Вызвать механика">Механик</a></li>
           </ul>
         </nav>
 
@@ -91,4 +91,23 @@
       </ul>
     </div>
   </div>
-</footer>
+</footer><dialog class="modal" aria-labelledby="modal-title">
+  <button class="modal__close" type="button" aria-label="Закрыть окно">×</button>
+  <form class="modal__form" method="dialog">
+    <h2 class="modal__title" id="modal-title">Заказать пакет</h2>
+    <p class="modal__package"></p>
+    <input type="hidden" name="package" class="modal__package-input">
+    <label class="modal__label">Ваше имя
+      <input class="modal__input" type="text" name="name" placeholder="Иван" required>
+    </label>
+    <label class="modal__label">Телефон
+      <input class="modal__input" type="tel" name="phone" placeholder="+7 (900) 000-00-00" required>
+    </label>
+    <button class="modal__submit" type="submit">Отправить заявку</button>
+  </form>
+  <div class="modal__success" hidden>
+    <h2 class="modal__title">Спасибо!</h2>
+    <p class="modal__text">Мы получили вашу заявку и скоро свяжемся с вами.</p>
+    <button class="modal__submit modal__submit--close" type="button">Закрыть</button>
+  </div>
+</dialog>
