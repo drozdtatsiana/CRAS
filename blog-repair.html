@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRAS</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a class="header__logo" href="index.html">
+        <img src="images/logo.svg" alt="Cras — на главную" width="100" height="40">
+      </a>
+
+      <nav class="menu" aria-label="Основное меню">
+        <button class="menu__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu">
+          <span class="menu__burger-line menu__burger-line--top"></span>
+          <span class="menu__burger-line menu__burger-line--middle"></span>
+          <span class="menu__burger-line menu__burger-line--bottom"></span>
+        </button>
+
+        <ul class="menu__list" id="menu">
+          <li class="menu__item"><a class="menu__link" href="index.html">Главная</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#about">О нас</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#services">Услуги</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#blog">Блог</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#pricing">Тарифы</a></li>
+          <li class="menu__item"><a class="menu__link" href="index.html#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a class="header__tel" href="tel:+78009156271">
+        <svg class="header__tel-icon" width="60" height="60" aria-hidden="true">
+          <use href="images/sprite.svg#icon-tel"></use>
+        </svg>
+        +7 (800) 915-62-71
+      </a>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <section class="blog">
+    <div class="container">
+      <div class="blog__content">
+        <h1 class="blog__title">Ремонт и сервис авто</h1>
+
+        <picture class="blog__img">
+          <source srcset="images/hero-1.avif" type="image/avif" />
+          <source srcset="images/hero-1.webp" type="image/webp" />
+          <img src="images/hero-1.jpg" width="1200" height="560"
+            alt="Мастер ремонтирует двигатель автомобиля" />
+        </picture>
+
+        <b>
+          Сертифицированные мастера проведут диагностику и ремонт на высшем уровне,
+          чтобы ваш автомобиль работал безупречно. Всё необходимое для обслуживания и
+          ремонта вы найдёте в одном месте.
+        </b>
+
+        <h2>Что входит в обслуживание</h2>
+
+        <b>1. Плановое техобслуживание</b>
+        <p>
+          Регулярный сервис продлевает жизнь автомобилю и помогает избежать дорогих
+          поломок. Мы работаем по регламенту производителя и учитываем ваш пробег и
+          стиль езды.
+        </p>
+        <ul>
+          <li>Замена масла и фильтров</li>
+          <li>Проверка тормозной системы и подвески</li>
+          <li>Диагностика электроники</li>
+          <li>Замена технических жидкостей</li>
+        </ul>
+
+        <b>2. Ремонт любой сложности</b>
+        <p>
+          Устраняем неисправности двигателя, трансмиссии, ходовой части и
+          электрооборудования. Работаем с оригинальными запчастями и качественными
+          аналогами на ваш выбор.
+        </p>
+
+        <b>3. Честный подход</b>
+        <ul>
+          <li>Показываем неисправность и объясняем причину</li>
+          <li>Согласуем стоимость до начала работ</li>
+          <li>Не меняем лишнего и не навязываем услуги</li>
+          <li>Даём гарантию на работы и детали</li>
+        </ul>
+
+        <b>4. Как мы работаем</b>
+        <p>
+          Вы приезжаете или записываетесь по телефону. Мастер осматривает автомобиль,
+          проводит диагностику и называет точный перечень работ и цену. После вашего
+          согласия мы выполняем ремонт и сообщаем, когда машина готова.
+        </p>
+
+        <b>5. Чем мы можем помочь ещё</b>
+        <p>
+          Если нужна не только починка, у нас есть компьютерная диагностика,
+          шиномонтаж, кузовной ремонт, детейлинг и тюнинг. Всё можно сделать за один
+          визит.
+        </p>
+
+        <b>
+          Запишитесь на обслуживание по телефону +7 (800) 915-62-71, и мы подберём
+          удобное время для вашего автомобиля.
+        </b>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer" id="contacts">
+  <div class="container">
+    <a class="footer__logo" href="#">
+      <img src="images/logo.svg" alt="Cras — на главную" width="100" height="40">
+    </a>
+
+    <div class="footer__top">
+      <div class="footer__about">
+        <p class="footer__text">
+          Сертифицированные мастера выполнят диагностику и ремонт вашего автомобиля в срок и с гарантией.
+        </p>
+        <a class="footer__phone" href="tel:+78009156271">
+          <svg class="footer__phone-icon" width="60" height="60" aria-hidden="true">
+            <use href="images/sprite.svg#icon-tel"></use>
+          </svg>
+          +7 (800) 915-62-71
+        </a>
+      </div>
+
+      <div class="footer__columns">
+        <nav class="footer__col" aria-label="Быстрые ссылки">
+          <h3 class="footer__title">Быстрые ссылки</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a class="footer__link" href="#">Главная</a></li>
+            <li class="footer__item"><a class="footer__link" href="#about">О нас</a></li>
+            <li class="footer__item"><a class="footer__link" href="#services">Услуги</a></li>
+            <li class="footer__item"><a class="footer__link" href="#blog">Блог</a></li>
+            <li class="footer__item"><a class="footer__link" href="#pricing">Тарифы</a></li>
+            <li class="footer__item"><a class="footer__link" href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__col" aria-label="Полезные ссылки">
+          <h3 class="footer__title">Полезные ссылки</h3>
+          <ul class="footer__list">
+            <li class="footer__item"><a class="footer__link" href="#" data-package="Запись на обслуживание" data-title="Записаться на обслуживание">Запись</a></li>
+            <li class="footer__item"><a class="footer__link" href="#blog">Блог / Новости</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Вопросы и ответы</a></li>
+            <li class="footer__item"><a class="footer__link" href="#" data-package="Вызов механика" data-title="Вызвать механика">Механик</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__col">
+          <h3 class="footer__title">Адрес и контакты</h3>
+          <address class="footer__address">
+            <ul class="footer__list">
+              <li class="footer__item footer__contact">
+                <svg class="footer__contact-icon" width="14" height="18" aria-hidden="true">
+                  <use href="images/sprite.svg#local-icon"></use>
+                </svg>
+                <a class="footer__link" href="https://yandex.by/maps/-/CXbXMXm2" target="_blank" rel="noopener">
+                  ул. Заводская, 12<br>Москва, Россия
+                </a>
+              </li>
+              <li class="footer__item footer__contact">
+                <svg class="footer__contact-icon" width="21" height="17" aria-hidden="true">
+                  <use href="images/sprite.svg#envelope-icon"></use>
+                </svg>
+                <a class="footer__link" href="mailto:info@example.ru">info@example.ru</a>
+              </li>
+              <li class="footer__item footer__contact">
+                <svg class="footer__contact-icon" width="20" height="20" aria-hidden="true">
+                  <use href="images/sprite.svg#time-icon"></use>
+                </svg>
+                <span>Пн–Сб: 9:00–20:00</span>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2026. Все права защищены</p>
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#" aria-label="X (Twitter)">
+            <svg width="20" height="20" aria-hidden="true"><use href="images/sprite.svg#icon-twitter"></use></svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#" aria-label="LinkedIn">
+            <svg width="16" height="16" aria-hidden="true"><use href="images/sprite.svg#icon-linkedin"></use></svg>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#" aria-label="Facebook">
+            <svg width="16" height="16" aria-hidden="true"><use href="images/sprite.svg#icon-facebook"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer><dialog class="modal" aria-labelledby="modal-title">
+  <button class="modal__close" type="button" aria-label="Закрыть окно">×</button>
+  <form class="modal__form" method="dialog">
+    <h2 class="modal__title" id="modal-title">Заказать пакет</h2>
+    <p class="modal__package"></p>
+    <input type="hidden" name="package" class="modal__package-input">
+    <label class="modal__label">Ваше имя
+      <input class="modal__input" type="text" name="name" placeholder="Иван" required>
+    </label>
+    <label class="modal__label">Телефон
+      <input class="modal__input" type="tel" name="phone" placeholder="+7 (900) 000-00-00" required>
+    </label>
+    <button class="modal__submit" type="submit">Отправить заявку</button>
+  </form>
+  <div class="modal__success" hidden>
+    <h2 class="modal__title">Спасибо!</h2>
+    <p class="modal__text">Мы получили вашу заявку и скоро свяжемся с вами.</p>
+    <button class="modal__submit modal__submit--close" type="button">Закрыть</button>
+  </div>
+</dialog>
+
+</div>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
