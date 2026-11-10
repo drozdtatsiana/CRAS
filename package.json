@@ -25,7 +25,8 @@
     "gulp-ttf2woff2": "^4.0.1",
     "gulp-uglify-es": "^3.0.0",
     "gulp-webp": "^4.0.1",
-    "sass": "^1.86.3"
+    "sass": "^1.86.3",
+    "sharp": "^0.35.5"
   },
   "dependencies": {
     "nouislider": "^15.8.1",

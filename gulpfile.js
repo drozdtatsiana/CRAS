@@ -105,6 +105,7 @@ function building() {
     'app/js/main.min.js',
     'app/css/style.min.css',
     'app/images/*.*',
+    'app/video/*.*', 
     'app/fonts/*.woff2'
   ], { base: 'app' })
     .pipe(dest('dist'));
