@@ -671,7 +671,7 @@
         </div>
     </section>
 
-    <section class="pricing" id="pricing">
+   <section class="pricing" id="pricing">
         <div class="container">
             <h2 class="pricing__title">Тарифы</h2>
             <p class="pricing__text">
@@ -691,7 +691,7 @@
                         <li class="pricing__feature">Усиленная тормозная система</li>
                         <li class="pricing__feature">Детейлинг салона и кузова</li>
                     </ul>
-                    <a class="pricing__item-link" href="#" aria-label="Выбрать пакет: Полный уход за авто">Выбрать пакет</a>
+                    <a class="pricing__item-link" href="#" data-package="Полный уход за авто" aria-label="Выбрать пакет: Полный уход за авто">Выбрать пакет</a>
                 </li>
 
                 <li class="pricing__item">
@@ -706,7 +706,7 @@
                         <li class="pricing__feature">Усиленная тормозная система</li>
                         <li class="pricing__feature">Детейлинг салона и кузова</li>
                     </ul>
-                    <a class="pricing__item-link" href="#" aria-label="Выбрать пакет: Улучшение мощности">Выбрать пакет</a>
+                    <a class="pricing__item-link" href="#" data-package="Улучшение мощности" aria-label="Выбрать пакет: Улучшение мощности">Выбрать пакет</a>
                 </li>
 
                 <li class="pricing__item">
@@ -721,10 +721,39 @@
                         <li class="pricing__feature">Усиленная тормозная система</li>
                         <li class="pricing__feature">Детейлинг салона и кузова</li>
                     </ul>
-                    <a class="pricing__item-link" href="#" aria-label="Выбрать пакет: Обслуживание автопарков">Выбрать пакет</a>
+                    <a class="pricing__item-link" href="#" data-package="Обслуживание автопарков" aria-label="Выбрать пакет: Обслуживание автопарков">Выбрать пакет</a>
                 </li>
             </ul>
         </div>
+
+        <dialog class="modal" aria-labelledby="modal-title">
+            <button class="modal__close" type="button" aria-label="Закрыть окно">×</button>
+
+            <form class="modal__form" method="dialog">
+                <h2 class="modal__title" id="modal-title">Заказать пакет</h2>
+                <p class="modal__package"></p>
+
+                <input type="hidden" name="package" class="modal__package-input">
+
+                <label class="modal__label">
+                    Ваше имя
+                    <input class="modal__input" type="text" name="name" placeholder="Иван" required>
+                </label>
+
+                <label class="modal__label">
+                    Телефон
+                    <input class="modal__input" type="tel" name="phone" placeholder="+7 (900) 000-00-00" required>
+                </label>
+
+                <button class="modal__submit" type="submit">Отправить заявку</button>
+            </form>
+
+            <div class="modal__success" hidden>
+                <h2 class="modal__title">Спасибо!</h2>
+                <p class="modal__text">Мы получили вашу заявку и скоро свяжемся с вами.</p>
+                <button class="modal__submit modal__submit--close" type="button">Закрыть</button>
+            </div>
+        </dialog>
     </section>
 
               <section class="news" id="blog">
